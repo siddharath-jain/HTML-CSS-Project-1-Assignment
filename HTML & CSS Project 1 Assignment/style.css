@@ -1,0 +1,101 @@
+/* start universal code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 2rem 1rem;
+}
+/* end universal code */
+
+/* common css */
+button {
+  padding: 0.5rem 2rem;
+  color: white;
+  background-color: salmon;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+/* end common css */
+
+/* start header */
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(".//Assest/pexels-maxyne-barcel-10402282\ 1.png");
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  background-position: center;
+  background-size: 100% 100%;
+  -webkit-filter: brightness(80%);
+}
+/* end header */
+/* start nav-section */
+nav {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  width: 33%;
+}
+.navbar {
+  width: 33%;
+}
+.btn {
+  width: 33%;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: yellow;
+  font-weight: 800;
+}
+/* end nav-section */
+/* start main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+main h1 {
+  text-align: center;
+  line-height: 5rem;
+  word-spacing: 1rem;
+  /* font-weight: 800; */
+  color: yellow;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+main button {
+  margin-top: 4rem;
+}
+/* end main */
+
+/* start footer */
+footer img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
+}
+/* end footer */
